@@ -161,3 +161,136 @@
 2020/02/07 14:33:10 [error] 2310#0: *51 open() "/home/barmaley/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.0.2.2, server: 10.0.2.4, request: "GET /favicon.ico HTTP/1.1", host: "192.168.56.1:8080"
 2020/02/07 14:49:22 [emerg] 2343#0: invalid number of arguments in "include" directive in /home/barmaley/nginx/conf/nginx.conf:21
 2020/02/07 14:51:04 [notice] 2366#0: signal process started
+2020/02/07 18:01:22 [error] 1156#0: *1 open() "/home/barmaley/nginx/html/500.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /500.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:01:28 [error] 1156#0: *1 open() "/home/barmaley/nginx/html/501.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /501.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:03:18 [error] 1156#0: *5 open() "/home/barmaley/nginx/html/resources/pictures/02.jpg" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /pictures/02.jpg HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:25:43 [notice] 1938#0: signal process started
+2020/02/07 18:26:25 [error] 1939#0: *7 open() "/home/barmaley/nginx/html/admin" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:35:48 [notice] 2005#0: signal process started
+2020/02/07 18:35:55 [error] 2006#0: *10 open() "/home/barmaley/nginx/html/home/barmaley/nginx/admin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:36:00 [error] 2006#0: *10 open() "/home/barmaley/nginx/html/home/barmaley/nginx/admin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:36:38 [error] 2006#0: *10 open() "/home/barmaley/nginx/html/home/barmaley/nginx/admin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/07 18:38:54 [notice] 2074#0: signal process started
+2020/02/10 09:35:22 [notice] 19495#0: signal process started
+2020/02/10 09:37:06 [emerg] 19523#0: invalid number of arguments in "try_files" directive in /home/barmaley/nginx/conf/vhosts/backend.conf:29
+2020/02/10 09:40:03 [notice] 19567#0: signal process started
+2020/02/10 09:40:05 [error] 19568#0: *26 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:19:29 [error] 19568#0: *28 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:20:20 [error] 19568#0: *28 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:30:00 [error] 19568#0: *31 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:30:28 [error] 19568#0: *31 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:30:48 [error] 19568#0: *31 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:13 [notice] 20114#0: signal process started
+2020/02/10 11:31:16 [error] 20115#0: *35 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:17 [error] 20115#0: *35 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:17 [error] 20115#0: *35 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:18 [error] 20115#0: *35 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:18 [error] 20115#0: *35 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:18 [error] 20115#0: *35 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:31:56 [notice] 20140#0: signal process started
+2020/02/10 11:31:58 [error] 20141#0: *37 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:32:02 [error] 20141#0: *38 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:32:03 [error] 20141#0: *39 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:32:38 [error] 20141#0: *41 rewrite or internal redirection cycle while internally redirecting to "/admin/test", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/test HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:33:10 [notice] 20162#0: signal process started
+2020/02/10 11:33:12 [error] 20163#0: *43 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/test HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:33:19 [error] 20163#0: *43 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:33:35 [error] 20163#0: *43 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/test.php HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:34:25 [error] 20163#0: *43 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/test.php HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:34:29 [error] 20163#0: *43 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:36:03 [error] 20163#0: *47 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 11:37:10 [error] 20163#0: *49 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:37:17 [error] 20163#0: *49 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/php HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:37:24 [error] 20163#0: *49 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/tets.ad HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:37:28 [error] 20163#0: *49 open() "/home/barmaley/nginx/htmladmin.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:37:38 [notice] 20212#0: signal process started
+2020/02/10 11:37:41 [error] 20213#0: *52 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:37:46 [error] 20213#0: *53 rewrite or internal redirection cycle while internally redirecting to "/admin/tets", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/tets HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:37:55 [error] 20213#0: *54 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:41:10 [notice] 20257#0: signal process started
+2020/02/10 11:44:27 [error] 20258#0: *62 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:44:50 [notice] 20296#0: signal process started
+2020/02/10 11:44:52 [error] 20297#0: *65 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:46:03 [error] 20297#0: *67 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:46:35 [notice] 20321#0: signal process started
+2020/02/10 11:46:37 [error] 20322#0: *70 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:46:38 [error] 20322#0: *71 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:46:38 [error] 20322#0: *72 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:46:40 [error] 20322#0: *73 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:48:24 [error] 20322#0: *76 rewrite or internal redirection cycle while internally redirecting to "/adminka", client: 192.168.56.1, server: 10.0.2.4, request: "GET /adminka HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:48:34 [error] 20322#0: *77 rewrite or internal redirection cycle while internally redirecting to "/admin/ka", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ka HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:48:39 [error] 20322#0: *78 rewrite or internal redirection cycle while internally redirecting to "/admin/afsd", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/afsd HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:48:57 [error] 20322#0: *81 rewrite or internal redirection cycle while internally redirecting to "/admin/testta", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/testta HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:49:27 [notice] 20365#0: signal process started
+2020/02/10 11:50:39 [error] 20366#0: *83 rewrite or internal redirection cycle while internally redirecting to "/admin/admin", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:50:43 [error] 20366#0: *84 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:56:18 [error] 20366#0: *87 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:56:18 [error] 20366#0: *88 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:56:19 [error] 20366#0: *89 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 11:56:34 [error] 20366#0: *91 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 11:56:58 [error] 20366#0: *93 rewrite or internal redirection cycle while internally redirecting to "/admin/admin.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/admin.html HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:00:25 [notice] 20499#0: signal process started
+2020/02/10 12:04:32 [error] 20500#0: *98 "/home/barmaley/nginx/html/admin/admin.html" is not found (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:12:43 [notice] 20593#0: signal process started
+2020/02/10 12:13:29 [error] 20594#0: *100 open() "/home/barmaley/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /favicon.ico HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/admin/fsdaf"
+2020/02/10 12:16:22 [notice] 20637#0: signal process started
+2020/02/10 12:17:37 [error] 20638#0: *104 open() "/home/barmaley/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /favicon.ico HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/admin/"
+2020/02/10 12:19:58 [notice] 20712#0: signal process started
+2020/02/10 12:20:00 [error] 20713#0: *108 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 12:21:40 [notice] 20752#0: signal process started
+2020/02/10 12:21:42 [error] 20753#0: *110 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 12:21:42 [error] 20753#0: *111 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 12:21:43 [error] 20753#0: *112 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 12:21:46 [error] 20753#0: *113 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:23:59 [notice] 20772#0: signal process started
+2020/02/10 12:24:15 [error] 20773#0: *115 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:24:16 [error] 20773#0: *116 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:24:16 [error] 20773#0: *117 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:24:16 [error] 20773#0: *118 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:24:18 [error] 20773#0: *119 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:24:19 [error] 20773#0: *120 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:20 [error] 20773#0: *122 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:21 [error] 20773#0: *123 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:21 [error] 20773#0: *124 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:21 [error] 20773#0: *125 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:21 [error] 20773#0: *126 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:31 [notice] 20888#0: signal process started
+2020/02/10 12:26:33 [error] 20889#0: *128 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:33 [error] 20889#0: *129 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:34 [error] 20889#0: *130 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:36 [error] 20889#0: *131 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:26:50 [error] 20889#0: *133 rewrite or internal redirection cycle while internally redirecting to "/admin/", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:29:48 [notice] 20935#0: signal process started
+2020/02/10 12:29:50 [error] 20936#0: *136 rewrite or internal redirection cycle while internally redirecting to "/admin//admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:29:51 [error] 20936#0: *137 rewrite or internal redirection cycle while internally redirecting to "/admin//admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:29:51 [error] 20936#0: *138 rewrite or internal redirection cycle while internally redirecting to "/admin//admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:29:51 [error] 20936#0: *139 rewrite or internal redirection cycle while internally redirecting to "/admin//admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:29:51 [error] 20936#0: *140 rewrite or internal redirection cycle while internally redirecting to "/admin//admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:30:30 [error] 20936#0: *142 rewrite or internal redirection cycle while internally redirecting to "/admin//admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html/admin2.html", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:34:55 [notice] 21018#0: signal process started
+2020/02/10 12:35:02 [error] 21019#0: *144 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:03 [error] 21019#0: *145 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:03 [error] 21019#0: *146 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:03 [error] 21019#0: *147 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:03 [error] 21019#0: *148 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:03 [error] 21019#0: *149 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:04 [error] 21019#0: *150 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:04 [error] 21019#0: *151 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 12:35:09 [error] 21019#0: *152 rewrite or internal redirection cycle while internally redirecting to "/admin/.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm.htm", client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 12:39:14 [emerg] 21060#0: invalid number of arguments in "try_files" directive in /home/barmaley/nginx/conf/vhosts/backend.conf:29
+2020/02/10 13:08:35 [notice] 21227#0: signal process started
+2020/02/10 13:08:41 [error] 21228#0: *154 open() "/home/barmaley/nginx/htmlindex.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 13:08:46 [error] 21228#0: *154 open() "/home/barmaley/nginx/htmlindex.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 13:08:47 [error] 21228#0: *154 open() "/home/barmaley/nginx/htmlindex.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 13:08:51 [error] 21228#0: *154 open() "/home/barmaley/nginx/htmlindex.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080"
+2020/02/10 13:08:57 [error] 21228#0: *154 open() "/home/barmaley/nginx/htmlindex.html" failed (2: No such file or directory), client: 192.168.56.1, server: 10.0.2.4, request: "GET /admin/ HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 13:09:29 [notice] 21249#0: signal process started
+2020/02/10 13:10:17 [emerg] 21269#0: invalid code "=404.html" in /home/barmaley/nginx/conf/vhosts/backend.conf:29
+2020/02/10 13:11:06 [notice] 21288#0: signal process started
+2020/02/10 13:11:19 [error] 21289#0: *163 access forbidden by rule, client: 192.168.56.1, server: 10.0.2.4, request: "GET /status HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 13:12:08 [notice] 21309#0: signal process started
+2020/02/10 13:15:37 [notice] 21377#0: signal process started
+2020/02/10 13:15:44 [notice] 21397#0: signal process started
+2020/02/10 13:16:04 [error] 21398#0: *175 access forbidden by rule, client: 192.168.56.1, server: 10.0.2.4, request: "GET /status HTTP/1.1", host: "192.168.56.1:8080", referrer: "http://192.168.56.1:8080/"
+2020/02/10 13:18:05 [notice] 21437#0: signal process started
+2020/02/10 13:22:38 [notice] 21508#0: signal process started
